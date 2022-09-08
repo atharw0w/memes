@@ -8,12 +8,7 @@ const overalyImg=overlay.querySelector('img')
 const parentDiv=document.getElementById('memes')
 const memeBtn = document.querySelector('.memes-button');
 
-const sub = ["woosh","arabfunny","memes","dank","dankinindia","IndianDankMemes","okbhaibudbak","dankruto","indianpeoplefacebook","memes","indianpeoplelinkedin","dankrishu"
-,"dankmemes","2Asia4u","SaimanSays","cringe","funny","HistoryMemes",
-"ShitPostCrusaders","starterpacks","wholesomememes"];
-
-const waifus =["Waifu","RealGirls","waifusgonewild"];
-
+const sub = ["woosh","arabfunny","memes","okbhaibudbak","dankruto","indianpeoplefacebook","memes","indianpeoplelinkedin","SaimanSays","cringe","funny","HistoryMemes","starterpacks","wholesomememes"];
 
 const loadmemes= async function(url) {
     const data = await fetch(url)
